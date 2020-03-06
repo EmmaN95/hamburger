@@ -1,0 +1,83 @@
+header{
+ margin: 200px;
+ background-color: rgb(241, 212, 217);
+}
+
+h1{
+    text-align: center;
+}
+
+body{
+ background-color: rgb(218, 218, 218);
+}
+
+a:visited{
+ color: black;
+}
+
+li{
+    display: inline ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;
+    text-decoration: none;
+    font-size: 20px;
+    list-style: none;
+    margin: 10px;
+    padding: 100px;
+    color: black;
+}
+li a{
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: fuchsia;
+    color: white;
+    text-decoration: none;
+    transform: scale(2);
+} 
+
+.ham1, .ham2, .ham3 {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    transition: 0.4s;
+    text-decoration: none;
+  }
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 5px 5px; 
+  }
+
+.container:hover{
+      background-color: rgb(225, 0, 255);
+      box-shadow: 5px 5px;
+      transform: scale(1.5,1.5);
+  }
+
+  .panel {
+    padding: 0;
+    background-color: transparent;
+    display: none;
+    overflow: hidden;
+  }
+ 
+  
+ /* .change .ham1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+  }
+  
+ 
+  .change .ham2 {
+    opacity: 0;
+  }
+  
+ 
+  .change .ham3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+  }*/
